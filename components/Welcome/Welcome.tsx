@@ -7,7 +7,7 @@ export function Welcome() {
       <Title className={classes.title} ta="center" mt={100}>
         Welcome to{' '}
         <Text inherit variant="gradient" component="span" gradient={{ from: 'pink', to: 'yellow' }}>
-          Mantine
+          Wizard Dinan
         </Text>
       </Title>
       <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
@@ -16,7 +16,7 @@ export function Welcome() {
         <Anchor href="https://mantine.dev/guides/next/" size="lg">
           this guide
         </Anchor>
-        . To get started edit page.tsx file.
+
       </Text>
     </>
   );
