@@ -6,6 +6,7 @@ export default function HomePage() {
     <>
       <Welcome />
       <ColorSchemeToggle />
+      <h2>hello world</h2>
     </>
   );
 }
